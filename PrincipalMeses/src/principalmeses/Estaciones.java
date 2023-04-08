@@ -14,7 +14,7 @@ public class Estaciones {
            this.meses=mesesDados.meses;
        }
   
-       public void mesesEstaciones(){
+       public  void mesesEstaciones(){
            for(int i=0;i<3;i++){
                if(this.meses[i].equals(this.VERANO[i])){
                System.out.println(this.meses[i]+":"+"Es Verano");}
