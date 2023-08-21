@@ -2,9 +2,15 @@
 package main;
 public class Main {
     public static void main(String[] args) {
-    
-       Estudiante estudiante=new Estudiante("192092",4.6,"1010960903","Paula Garcia",18);
-       estudiante.mostrarDatos();
+        Perro perro =new Perro("Labrador","Tovi");
+        Gato gato=new Gato("monito","micho");
+        
+        String datosPerro=perro.motrarDatos();
+        String datosGato=gato.motrarDatos();
+        
+        System.out.println(datosPerro);
+        System.out.println(datosGato);
+                
     }
     
 }
